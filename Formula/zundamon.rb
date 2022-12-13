@@ -13,7 +13,7 @@ class Zundamon < Formula
   def caveats
     <<~EOS
       Add the following in your ~/.zshrc or ~/.profile:
-        alias zundamon-bin="$(brew --prefix zundamon)/zundamon $(brew --prefix zundamon)/open_jtalk_dic_utf_8-1.11"
+        alias zundamon="zundamon-bin $(brew --prefix zundamon)/open_jtalk_dic_utf_8-1.11"
     EOS
   end
 end
