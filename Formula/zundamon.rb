@@ -2,7 +2,7 @@ class Zundamon < Formula
   desc ""
   homepage ""
   url "https://github.com/cacapouh/zundamon-cli/releases/download/0.0.2/package.tar.gz"
-  sha256 "9e07905d243c72cc609917dab6bc706fcf3c0905881243922c1e401feb132164"
+  sha256 "b0a1b8d2a4e09b36250fb289d457626f965f36ce1fce5616a9d5acfe5a9bab80"
   license ""
 
   def install
