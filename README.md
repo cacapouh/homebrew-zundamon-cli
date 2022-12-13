@@ -7,7 +7,7 @@ $ brew tap cacapouh/zundamon-cli
 
 $ brew install cacapouh/zundamon-cli/zundamon
 
-$ echo 'alias zundamon="zundamon-bin $(brew --prefix zundamon)/open_jtalk_dic_utf_8-1.11"' > ~/.zshrc
+$ echo 'alias zundamon="zundamon-bin $(brew --prefix zundamon)/open_jtalk_dic_utf_8-1.11"' >> ~/.zshrc
 ```
 
 CLI本体の実装はこちら:
