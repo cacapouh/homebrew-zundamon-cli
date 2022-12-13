@@ -6,8 +6,15 @@ class Zundamon < Formula
   license ""
 
   def install
-    bin.install "zundamon"
-    prefix.install "libcore.dylib", "libonnxruntime.1.10.0.dylib", "open_jtalk_dic_utf_8-1.11"
+    bin.install "zundamon" => "zundamon-bin"
+    prefix.install "zundamon", "libcore.dylib", "libonnxruntime.1.10.0.dylib", "open_jtalk_dic_utf_8-1.11"
+  end
+
+  def caveats
+    <<~EOS
+      Add the following in your ~/.zshrc or ~/.profile:
+        alias zundamon-bin="$(brew --prefix zundamon)/zundamon $(brew --prefix zundamon)/open_jtalk_dic_utf_8-1.11"
+    EOS
   end
 end
 
