@@ -7,7 +7,7 @@ class Zundamon < Formula
 
   def install
     bin.install "zundamon" => "zundamon-bin"
-    prefix.install "zundamon", "libcore.dylib", "libonnxruntime.1.10.0.dylib", "open_jtalk_dic_utf_8-1.11"
+    prefix.install "libcore.dylib", "libonnxruntime.1.10.0.dylib", "open_jtalk_dic_utf_8-1.11"
   end
 
   def caveats
